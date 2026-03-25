@@ -125,6 +125,7 @@ In the MGN console under **Settings → Replication template**, the default repl
 
 - **Staging area subnet:** Public subnet (`subnet-0cbf0a339d7547bd2`)
 - **Replication server instance type:** `t3.small`
+> *The t3.small was selected over t3.medium for the replication server because it was functional enough, and to minimize costs for the project.*
 - **EBS encryption:** Default
 - **Create public IPv4 address:** Yes
 
